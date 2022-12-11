@@ -1,0 +1,95 @@
+body{
+  padding: 10%;
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.headerImg, .headerText,.flexbuttons,
+.infoSection,.footer,.backGround{
+  margin: 0;
+}
+
+
+.headerText,.flexbuttons,
+.infoSection,.footer{
+  padding: 2%;
+}
+
+
+
+.headerImg{
+  overflow: hidden;
+  border-radius: 3% 3% 0% 0%;
+  height: 350px;
+
+}
+.headerImg img{
+  height: 650px;
+  margin: 0;
+}
+
+.headerText{
+  text-align: center;
+  height: 100px;
+  
+}
+
+.headerText h1,.headerText h4,.headerText p{
+  margin: 0;
+  padding: 1%;
+}
+
+.headerText h4{
+  color: gray;
+}
+.headerText h1,.headerText p{
+  color: white;
+}
+
+.flexbuttons{
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexbuttons button{
+  border-radius: 5%;
+  padding: 5%;
+  width: 170px;
+  height: 20px;
+  margin: 10px;
+  text-align: center;
+  border: 0px;
+}
+
+#linkedin{
+  background-color: rgb(63, 117, 255);
+  color: white;
+}
+
+.infoSection{
+  color: white;
+
+}
+
+.backGround{
+  background-color: rgb(15, 14, 14);
+  border-radius: 3% 3% 0% 0%;
+  height: 100%;
+  margin: 0;
+  width: 337px;
+
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  background-color: rgb(0, 0, 0);
+  
+}
+.footer img{
+  height: 40px;
+  margin: 10px;
+
+}
